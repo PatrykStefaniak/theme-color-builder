@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ThemeControls } from './ThemeControls';
 import { ThemePreview } from './ThemePreview';
 import { generateTheme } from '../utils/themeGenerator';
